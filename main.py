@@ -10,7 +10,6 @@ class MyWindow(Gtk.ApplicationWindow):
 
         tabed = Gtk.Notebook.new()
         homeGrid = Gtk.Grid.new()
-        # container = Gtk..new()
         labelTest = Gtk.Label.new("Testing")
         labelHome = Gtk.Label.new("Home")
 
@@ -28,13 +27,14 @@ class MyWindow(Gtk.ApplicationWindow):
         homeGrid.set_row_homogeneous(True)
         # homeGrid.set_row_spacing(3)
 
-        homeGrid.insert_column(1)
-        homeGrid.insert_column(2)
-        homeGrid.insert_column(3)
-        homeGrid.insert_row(1)
+        # homeGrid.insert_column(1)
+        # homeGrid.insert_column(2)
+        # homeGrid.insert_column(3)
+        # homeGrid.insert_row(1)
         homeGrid.attach(image1, 1, 1, iconSize, iconSize)
-        homeGrid.attach(image3, 2, 1, iconSize, iconSize)
-        homeGrid.attach(image4, 3, 1, iconSize, iconSize)
+        homeGrid.attach_next_to(image2, image1, Gtk.PositionType.RIGHT, 3, 1)
+        # homeGrid.attach(image3, 2, 1, iconSize, iconSize)
+        # homeGrid.attach(image4, 3, 1, iconSize, iconSize)
 
         # tabed.insert_page_menu()
         tabed.insert_page(homeGrid, labelHome, 0)
