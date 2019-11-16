@@ -1,4 +1,4 @@
-# tuxtoy
+# Tux's Toys
 Tux's toys, widgits, and shenanigans
 
 Gtk Docs links
