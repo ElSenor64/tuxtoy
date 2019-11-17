@@ -1,5 +1,5 @@
 # Tux's Toys
-Tux's toys, widgits, and shenanigans
+Tux's toys, fidgets, and shenanigans
 
 ## GTK Documentation Links
 
