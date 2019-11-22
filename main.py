@@ -37,9 +37,9 @@ class MyWindow(Gtk.ApplicationWindow):
 
         favicon.set_from_file("gchrom1.png")
         image2.set_from_file("tux.png")
-        icon1.set_from_file("Craft.png")
-        icon2.set_from_file("gchrom1.png")
-        icon3.set_from_file("gchrom2.png")
+        icon1.set_from_file("icons/cmatrix.png")
+        icon2.set_from_file("icons/oneko.png")
+        icon3.set_from_file("icons/pi.png")
         icon4.set_from_file("Craft.png")
         icon5.set_from_file("gchrom1.png")
         icon6.set_from_file("gchrom2.png")
