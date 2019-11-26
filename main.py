@@ -22,9 +22,11 @@ class MyWindow(Gtk.ApplicationWindow):
         button8 = Gtk.Button.new()
         button9 = Gtk.Button.new()
 
-        iconSize = 32
+        iconSize = 128
+        # iconSizes = Gtk.IconSet
         favicon = Gtk.Image.new()
         image2 = Gtk.Image.new()
+        nope = Gtk.Image.new()
         icon1 = Gtk.Image.new()
         icon2 = Gtk.Image.new()
         icon3 = Gtk.Image.new()
@@ -37,15 +39,16 @@ class MyWindow(Gtk.ApplicationWindow):
 
         favicon.set_from_file("gchrom1.png")
         image2.set_from_file("tux.png")
+        # nope.set_from_icon_name("action-unavailable-symbolic", 48)
         icon1.set_from_file("icons/cmatrix.png")
         icon2.set_from_file("icons/oneko.png")
         icon3.set_from_file("icons/pi.png")
-        icon4.set_from_file("Craft.png")
-        icon5.set_from_file("gchrom1.png")
-        icon6.set_from_file("gchrom2.png")
-        icon7.set_from_file("gchrom2.png")
-        icon8.set_from_file("gchrom2.png")
-        icon9.set_from_file("gchrom2.png")
+        icon4.set_from_file("icons/xeyes.png")
+        icon5.set_from_file("icons/nope.png")
+        icon6.set_from_file("icons/nope.png")
+        icon7.set_from_file("icons/nope.png")
+        icon8.set_from_file("icons/nope.png")
+        icon9.set_from_file("icons/nope.png")
         homeGrid.set_column_homogeneous(True)
         # homeGrid.set_column_spacing(2)
         homeGrid.set_row_homogeneous(True)
